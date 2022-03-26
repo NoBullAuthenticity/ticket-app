@@ -6,6 +6,7 @@ import Spinner from '../components/Spinner'
 import BackButton from '../components/BackButton'
 import TicketItem from '../components/TicketItem'
 
+
 function Tickets() {
   const {tickets, isLoading, isSuccess} = useSelector((state) => state.tickets)
 
